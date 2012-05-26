@@ -5,7 +5,7 @@ describe GMTOffsetFinder do
 		@finder = GMTOffsetFinder.new
 	end
 
-	it "should find the GMT offset for a known city in australia" do
+	it "should find the GMT offset for a known city" do
 		@finder.offsetFor("Melbourne").should_not be_nil
 	end
 
